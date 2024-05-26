@@ -1,0 +1,28 @@
+{
+  "produtos": [
+    {
+      "nome": "stormtrooper",
+      "valor": 15.99,
+      "imagem": "https://garotasnerds.com/wp-content/uploads/2018/10/caneca-stormtrooper-1.jpg",
+      "id": "2dg3"
+    },
+    {
+      "nome": "sabre de luz",
+      "valor": 100,
+      "imagem": "https://sabredeluz.com.br/cdn/shop/products/sabre-de-luz-luke-skywalker_1300x.jpg?v=1672791169",
+      "id": "2nga"
+    },
+    {
+      "nome": "boneco luke",
+      "valor": 20.99,
+      "imagem": "https://images.tcdn.com.br/img/img_prod/460977/boneco_luke_skywalker_star_wars_15cm_hasbro_37579_1_20201211172928.jpg",
+      "id": "sd4h"
+    },
+    {
+      "id": "1f24",
+      "nome": "estrela da morte",
+      "valor": 1099.99,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-QioNgzTtUU2gQEHIh7XiA0IFIw60sjMJFbWMDK61Qw&s"
+    }
+  ]
+}

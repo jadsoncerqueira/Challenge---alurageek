@@ -1,0 +1,153 @@
+body{
+    background: url(img/background.jpg);
+    background-size: cover;
+    font-family: "Press Start 2P", system-ui;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: #ffff00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+main{
+    display: flex;
+}
+
+.produtos, .cadastrar{
+    background-color: white;
+    height: 80vh;
+    width: 50vw;
+    text-align: center;
+    margin: 60px 40px;
+}
+
+/*///PRODUTOS///*/
+.produtos{
+    overflow: auto;
+}
+
+.cabecalho_produtos{
+    position: absolute;
+    background-color: white;
+    width: 49vw;
+}
+
+.produtos-container{
+    padding-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    margin: 10px;
+}
+
+.card{
+    background-color: #ffff00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 185px;
+    min-height: 50%;
+    max-height: 60%;
+    font-size: 15px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.img_produto{
+    width: 175px;
+    height: 174px;
+    border: 6px solid black;
+    border-radius: 20px;
+}
+
+.card-container--value{
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    margin: 10px;
+}
+
+.fa-solid{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*///CADASTROS///*/
+.cadastrar{
+    width: 35vw;
+    min-height: 30vh;
+    max-height: 62vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.campo-cadastro{
+    width: 350px;
+    height: 38px;
+    border-radius: 30px;
+    border: 2px solid;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.botao-submit, .botao-limpar{
+    width: 164px;
+    height: 33px;
+    border: 3px solid;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: "Press Start 2P", system-ui;
+    cursor: pointer;
+}
+
+.botao-submit{
+    background-color: #ffff00;
+    color: black;
+}
+
+.botao-limpar{
+    background-color: black;
+    color: #ffff00;
+}
+
+footer{
+    height: 150px;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    main{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .logo, .produtos, .cadastrar, .cabecalho_produtos{
+        width: 80vw;
+    }
+
+    .campo-cadastro{
+        width: 65vw;
+    }
+
+    .produtos-container{
+        margin-top: 10%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

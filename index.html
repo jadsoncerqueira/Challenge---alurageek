@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alurageek</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icone.avif" sizes="48x48">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/28522b82af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" class="logo">
+    </header>
+    
+    <main>
+        <section class="produtos">
+            <div class="cabecalho_produtos">
+                <h3>MEUS PRODUTOS: </h3>
+            </div>
+
+            <div class="produtos-container" data-container></div> 
+        </section>
+
+        <section class="cadastrar">
+            <h3>CADASTRAR PRODUTOS: </h3>
+            <form data-formulario>
+                <input type="text" class="campo-cadastro" required placeholder="nome..." data-nome minlength="3" maxlength="25">
+                <input type="text" class="campo-cadastro" required placeholder="valor..." data-valor maxlength="7">
+                <input type="url" class="campo-cadastro" required placeholder="imagem..." data-imagem>
+
+                <div class="botões">
+                    <input type="submit" class="botao-submit">
+                    <input value="Limpar" type="button" class="botao-limpar">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img src="img/logo.svg" style="width: 275px;">
+        <p style="font-size: small; margin: 0;">Desenvolvido por Jadson Cerqueira</p>
+        <p style="font-size: small;">2024</p>
+    </footer>
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/criarProduto.js" type="module"></script>
+</body>
+</html>
